@@ -82,5 +82,4 @@
 (->> some-hiccip
      (s/conform ::node)
      (s/unform ::node))
-
 (println (hiccup->string some-hiccip))

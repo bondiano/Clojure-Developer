@@ -68,7 +68,7 @@
                   [:button
                    {:type "submit" :class "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"}
                    "Generate"]]
-                 (and schema
+                 (when schema
                       [:div {:class "container mx-auto mb-4"}
                             (if ok?
                               [:div
