@@ -112,10 +112,10 @@
   (if-let [value true]
     value
     ::s/invalid)
-  
+
   (if-let [value true]
     value
     '::s/invalid)
-  
+
   (s/valid? any? ::s/invalid)
   )
